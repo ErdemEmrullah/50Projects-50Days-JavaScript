@@ -27,11 +27,11 @@ function randomSelect(){
     const times =30
 
     const interval =setInterval(()=>{
-        const randomTag= picckRandomTag()
+        const randomTag= pickRandomTag()
     },100)
 }
 
-function picckRandomTag(){
+function pickRandomTag(){
     const tags = document.querySelectorAll('tag')
     
 }
